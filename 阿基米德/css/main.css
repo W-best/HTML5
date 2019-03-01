@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Tahoma,Arial,"微软雅黑","黑体"，sans-serif;
+}
+body{
+	background-image: url(../scB0230301/6.公共素材/bg.jpg);
+}
+header{
+	background-color: #111;
+	width: 100%;
+	height: 85px;
+	color: #242424;
+	border-bottom: 1px solid #fff;
+}
+/*第一块*/
+.header_1{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+/*阿基米德的超链接*/
+.header_1 a{
+	color: #eee;
+	text-decoration: none;
+}
+/*阿基米德*/
+.header_1 h1{
+	font-weight: lighter;
+	margin-top: 14px;
+}
+/*古希腊哲学家、数学家、物理学家*/
+.header_1 h4{
+	margin-top: 2px;
+	color: #666
+}
+/*右侧列表：并排一行*/
+.header_1_right ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 33px;
+}
+.header_1_right ul li a{
+	color: #A38B76;
+	text-decoration: none;
+}
+/*单独设置英文*/
+.header_1_right ul li a h5{
+	font-weight: lighter;
+	font-family: "宋体";
+	margin-top: 3px;
+}
+/*鼠标悬停后变色不同*/
+.header_1_right ul li a:hover h3{
+	color:#EBE4DE;
+}
+.header_1_right ul li a:hover h5{
+	color:#B09B8A;
+}
+/*右侧三角形*/
+.header_1_nav{
+	text-align: center;
+	width: 100%;
+	height: 30px;
+}
+.header_1_nav img{
+	margin: auto;
+	display: none;
+}
+/*阿基米德悬停后出现主页按钮*/
+.main_ajmd{
+	display: flex;
+	position: relative;
+}
+.main_ajmd img{
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+.main_ajmd:hover img{
+	display: block;
+	transition: 200ms;
+}
+.bodyer{
+	width: 1200px;
+	margin: auto;
+}
+
+/*底部信息*/
+footer{
+	background: #111;
+}
+.footer_1{
+	width: 1200px;
+	margin: auto;
+	color: #ddd;
+}
+.footer_1 a{
+	color: #A77A7B;
+	text-decoration: none;
+}
+.footer_1 a:hover{
+	color: #D95255;
+}
