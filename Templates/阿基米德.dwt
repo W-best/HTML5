@@ -15,7 +15,7 @@
 <header>
 	<div class="header_1">
 		<div class="header_1_left">
-			<a href="">
+			<a href="../阿基米德/index.html">
 				<div class="main_ajmd">
 					<h1>阿基米德</h1>
 					<div><img src="../阿基米德/scB0230301/6.公共素材/homelinkicon.gif" alt="主页"></div>
@@ -26,11 +26,13 @@
 		<nav class="header_1_right">
 			<ul>
 				<li>
-					<a href="">
+					<a href="../阿基米德/index.html">
 					<div >
 						<h3>首页</h3>
 						<h5>Home</h5>
-						<div class="header_1_nav header_1_nav_1"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+						<div class="header_1_nav header_1_nav_1">
+							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
+						</div>
 					</div>
 					</a>
 				</li>
@@ -39,7 +41,9 @@
 					<div>
 						<h3>人物生平</h3>
 						<h5>Life</h5>
-						<div class="header_1_nav header_1_nav_2"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+						<div class="header_1_nav header_1_nav_2">
+							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
+						</div>
 					</div>
 					</a>
 				</li>
@@ -48,7 +52,9 @@
 					<div>
 						<h3>个人成就</h3>
 						<h5>Achievement</h5>
-						<div class="header_1_nav header_1_nav_3"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+						<div class="header_1_nav header_1_nav_3">
+							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
+						</div>
 					</div>
 					</a>
 				</li>
@@ -57,7 +63,9 @@
 					<div>
 						<h3>个人著述</h3>
 						<h5>Books</h5>
-						<div class="header_1_nav header_1_nav_4"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+						<div class="header_1_nav header_1_nav_4">
+							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
+						</div>
 					</div>
 					</a>
 				</li>
@@ -66,7 +74,9 @@
 					<div>
 						<h3>后世缅怀</h3>
 						<h5>Memorial</h5>
-						<div class="header_1_nav header_1_nav_5"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+						<div class="header_1_nav header_1_nav_5">
+							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
+						</div>
 					</div>
 					</a>
 				</li>
