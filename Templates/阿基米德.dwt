@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="修改页面名字" -->
+<title>WAJAS</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../阿基米德/css/main.css">
+<!-- TemplateBeginEditable name="link连接CSS" -->
+	
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+	<div class="header_1">
+		<div class="header_1_left">
+			<a href="">
+				<div class="main_ajmd">
+					<h1>阿基米德</h1>
+					<div><img src="../阿基米德/scB0230301/6.公共素材/homelinkicon.gif" alt="主页"></div>
+				</div>
+			</a>
+			<h4>古希腊哲学家、数学家、物理学家</h4>
+		</div>
+		<nav class="header_1_right">
+			<ul>
+				<li>
+					<a href="">
+					<div >
+						<h3>首页</h3>
+						<h5>Home</h5>
+						<div class="header_1_nav header_1_nav_1"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<div>
+						<h3>人物生平</h3>
+						<h5>Life</h5>
+						<div class="header_1_nav header_1_nav_2"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<div>
+						<h3>个人成就</h3>
+						<h5>Achievement</h5>
+						<div class="header_1_nav header_1_nav_3"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<div>
+						<h3>个人著述</h3>
+						<h5>Books</h5>
+						<div class="header_1_nav header_1_nav_4"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<div>
+						<h3>后世缅怀</h3>
+						<h5>Memorial</h5>
+						<div class="header_1_nav header_1_nav_5"><img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt=""></div>
+					</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="bodyer">
+<!-- TemplateBeginEditable name="替换" -->
+	
+	
+<!-- TemplateEndEditable -->
+</div>
+<footer>
+	<div class="footer_1">
+		<br>
+		<p>源代码已上传至:<a href="https://github.com/W-best/HTML5">GitHub</a>、<a href="https://gitee.com/wajas/HTML5">码云</a></p>
+		<p>作者：王佳帅</p>
+		<br>
+	</div>
+</footer>
+</body>
+</html>
