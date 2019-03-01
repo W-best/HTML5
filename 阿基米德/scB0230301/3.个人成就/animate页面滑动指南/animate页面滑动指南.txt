@@ -1,0 +1,49 @@
+animate页面滑动指南
+
+animate结合scrollTop让页面锚点链接滑动到相应区域。
+
+【第1步】
+导入 jquery-2.0.3.min.js 脚本文件。
+
+【第2步】
+编写HTML代码。
+1.创建的class为scrollToTop的返回顶部的超级链接<a>
+如：<a class="scrollToTop">返回顶部</a>
+
+2.创建class为sb_menu的侧栏导航，一般使用ul。
+如：
+<div>
+  <ul class="sb_menu">
+	<li>...</li>
+	<li>...</li>
+	<li>...</li>
+  </ul>
+</div>
+
+
+【第3步】
+在页面底部增加代码：
+<script> 
+$(document).ready(function(){ 
+// 点击class为scrollToTop的a，则滑动到顶部，时间为500毫秒
+$('a.scrollToTop').click(function(){ 
+$('html, body').animate({scrollTop:'0px'}, 500, 'swing'); 
+return false; 
+}); 
+}) 
+
+$(document).ready(function(){ 
+// 点击class为sb_menu的li的a，则滑动到相应的id位置，时间为800毫秒
+$('.sb_menu li a').click(function(){ 
+var t = jQuery(this), h = t.attr('href'), target;
+	if (h.charAt(0) == '#' && h.length > 1 && (target = jQuery(h)).length > 0){
+		var pos = target.offset().top;
+	}
+
+$('html, body').animate({scrollTop:pos}, 800, 'swing'); 
+return false; 
+}); 
+}) 
+</script>
+
+注意，返回顶部的超级链接的class为scrollToTop，侧栏导航条的class为sb_menu
