@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>scrollspy脚本使用指南</title>
+<script src="jquery-2.0.3.min.js"></script>
+<script src="affix.js"></script>
+<style>
+#header{height:80px; background-color:#327ED9; margin-bottom:10px; clear:both;}
+#sidebarnav{
+	float:left;
+	width:200px;
+	background-color:#E43E96;
+}
+.main{float:right; width:500px;}
+#a1,#a2,#a3{ height:600px; margin-bottom:10px;}
+#a1{background-color:#ddd;}
+#a2{background-color:#999;}
+#a3{background-color:#eee;}
+
+.affix { position: fixed; top: 2px; }
+
+
+</style>
+</head>
+
+<body>
+<div id="header">
+这是头部。
+</div>
+<div id="sidebarnav" data-spy="affix" data-offset-top="92"> <!-- 92 = 80+10+2 -->
+  <h3>我会被固定</h3>
+  <ul class="sb_menu">
+    <li><a href="#a1">a1</a></li>
+    <li><a href="#a2">a2</a></li>
+    <li><a href="#a3">a3</a></li>
+  </ul>
+</div>
+<div class="main">
+  <div id="a1">这是a1</div>
+
+  <div id="a2">这是a2</div>
+
+  <div id="a3">这是a3</div>
+
+</div>
+</body>
+</html>
