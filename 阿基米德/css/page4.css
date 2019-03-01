@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.header_1_li_h3_4{
+	color:#EBE4DE;
+}
+.header_1_nav_4 img{
+	display: block;
+}
+.body_2{
+	width: 1180px;
+	padding: 10px;
+	border: 1px solid #ac9f87;
+	margin: 10px 0px;
+}
+.body_2 img{
+	width: 1180px;
+}
+.body_2_body{
+	/*左右横板*/
+	display: flex;	
+}
+.body_2_left{
+	width: 799px;
+	border-right: 1px solid #ac9f87;
+}
+.body_2_left table{
+	width: 780px;
+	margin-left: 10px;
+	border-collapse:collapse;
+}
+.body_2_left p{
+	width: 780px;
+	margin: 10px;
+}
+.body_2_left table tr td{
+	border: 1px solid #333;
+	line-height: 30px;
+	padding: 5px;
+	
+}
+
+.body_2_right{
+	width: 400px;
+}
+.body_2_right nav{
+	margin-left: 20px;
+}
+.body_2_right_ul h2{
+	margin:10px 0px;
+}
+.body_2_right_ul li{
+	list-style: none;
+	margin-bottom: 5px;
+}

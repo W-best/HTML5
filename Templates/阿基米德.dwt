@@ -28,7 +28,7 @@
 				<li>
 					<a href="../阿基米德/index.html">
 					<div >
-						<h3>首页</h3>
+						<h3 class="header_1_li_h3 header_1_li_h3_1">首页</h3>
 						<h5>Home</h5>
 						<div class="header_1_nav header_1_nav_1">
 							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
@@ -37,9 +37,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="../阿基米德/page/page2_人物生平.html">
 					<div>
-						<h3>人物生平</h3>
+						<h3 class="header_1_li_h3 header_1_li_h3_2">人物生平</h3>
 						<h5>Life</h5>
 						<div class="header_1_nav header_1_nav_2">
 							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
@@ -48,9 +48,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="../阿基米德/page/page3_个人成就.html">
 					<div>
-						<h3>个人成就</h3>
+						<h3 class="header_1_li_h3 header_1_li_h3_3">个人成就</h3>
 						<h5>Achievement</h5>
 						<div class="header_1_nav header_1_nav_3">
 							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
@@ -59,9 +59,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="../阿基米德/page/page4_个人著述.html">
 					<div>
-						<h3>个人著述</h3>
+						<h3 class="header_1_li_h3 header_1_li_h3_4">个人著述</h3>
 						<h5>Books</h5>
 						<div class="header_1_nav header_1_nav_4">
 							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
@@ -70,9 +70,9 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="../阿基米德/page/page5_后世缅怀.html">
 					<div>
-						<h3>后世缅怀</h3>
+						<h3  class="header_1_li_h3 header_1_li_h3_5">后世缅怀</h3>
 						<h5>Memorial</h5>
 						<div class="header_1_nav header_1_nav_5">
 							<img src="../阿基米德/scB0230301/6.公共素材/menuactive.gif" alt="">
@@ -93,7 +93,7 @@
 <footer>
 	<div class="footer_1">
 		<br>
-		<p>源代码已上传至:<a href="https://github.com/W-best/HTML5">GitHub</a>、<a href="https://gitee.com/wajas/HTML5">码云</a></p>
+		<p>源代码已上传至:<a href="https://github.com/W-best/HTML5"  target="_blank">GitHub</a></p>
 		<p>作者：王佳帅</p>
 		<br>
 	</div>
