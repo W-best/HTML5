@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../css/main.css">
 <!-- InstanceBeginEditable name="link连接CSS" -->
 <link rel="stylesheet" href="../css/page2.css">
+<script src="../js/jquery-3.3.1.min.js"></script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -97,13 +98,13 @@
 				<h3 id="t1">人物生平</h3>
 				<p>公元前287年，阿基米德诞生于希腊西西里岛叙拉古附近的一个小村庄，他出生于贵族，与叙拉古的赫农王（King Hieron）有亲戚关系，家庭十分富有。阿基米德的父亲是天文学家兼数学家，学识渊博，为人谦逊。阿基米德的意思是大思想家，阿基米德受家庭的影响，从小就对数学、天文学特别是古希腊的几何学产生了浓厚的兴趣。</p>
 				<p>阿基米德出生时，在当时古希腊的辉煌文化已经逐渐衰退，经济、文化中心逐渐转移到埃及的亚历山大城；但是另一方面，意大利半岛上新兴的罗马共和国，也正不断的扩张势力；北非也有新的国家迦太基兴起。阿基米德就是生长在这种新旧势力交替的时代，而叙拉古城也就成为许多势力的角斗场所。</p>
-				<a href="#">返回顶部</a>
+				<a href="#" class="scrollToTop">返回顶部</a>
 			</section>
 			<section class="body_sec">
 				<h3 id="t2">求学经历</h3>
 				<p>公元267年，也就是阿基米德十一岁时，阿基米德被父亲送到埃及的亚历山大城跟随欧几里得的学生埃拉托塞和卡农学习。亚历山大城位于尼罗河口，是当时世界的知识、文化贸易中心，学者云集，人才荟萃，被世人誉为“智慧之都”。举凡文学、数学、天文学、医学的研究都很发达。</p>
 				<p>阿基米德在亚历山大跟随过许多著名的数学家学习，包括有名的几何学大师—欧几里德，阿基米德在这里学习和生活了许多年，他兼收并蓄了东方和古希腊的优秀文化遗产，对其后的科学生涯中作出了重大的影响，奠定了阿基米德日后从事科学研究的基础。</p>
-				<a href="#">返回顶部</a>
+				<a href="#" class="scrollToTop">返回顶部</a>
 			</section>
 			<section class="body_sec">
 				<h3 id="t3">保卫祖国</h3>
@@ -116,7 +117,7 @@
 				<p>有一天叙拉古城遭到了罗马军队的偷袭，而叙拉古城的青壮年和士兵们都上前线去了，城里只剩下了老人、妇女和孩子，处于万分危急的时刻。就在这时，阿基米德为了自己的祖国站了出来。</p>
 				<p>阿基米德让妇女和孩子们每人都拿出自己家中的镜子一齐来到海岸边，让镜子把强烈的阳光反射到敌舰的主帆上，千百面镜子的反光聚集在船帆的一点上，船帆燃烧起来了，火势趁着风力，越烧越旺，罗马人不知底细，以为阿基米德又发明了新武器。就慌慌张张地逃跑了。</p>
 				<p>这些武器弄的罗马军队惊慌失措、人人害怕，连将军马塞拉斯都苦笑承认：“这是一场罗马舰队与阿基米德一人的战争”、“阿基米德是神话中的百手巨人”。</p>
-				<a href="#">返回顶部</a>
+				<a href="#" class="scrollToTop">返回顶部</a>
 			</section>
 			<section class="body_sec">
 				<h3 id="t4">伟人之死</h3>
@@ -126,12 +127,12 @@
 				<p><strong>版本三：</strong>阿基米德坐在残缺的石墙旁边，正在沙地上画着一个几何图形。一个罗马士兵命令阿基米德离开，他傲慢地做了个手势说：“别把我的圆弄坏了！”罗马士兵勃然大怒，马上用刀一刺，就杀死了这位古代科学家阿基米德。</p>
 				<p><strong>版本四：</strong>罗马士兵闯入了阿基米德的住宅，看见一位老人正在自家宅前的地上画图研究几何问题，阿基米德说：“走开，别动我的图！”战士一听十分生气，于是拔出刀来，朝阿基米德身上刺下去。</p>
 				<p>无论阿基米德是怎么死的，最为惋惜的就是那位罗马军队的统帅马塞拉斯，马塞拉斯将杀死阿基米德的士兵当作杀人犯予以处决，他为阿基米德举行了隆重的葬礼，并为阿基米德修建了一座陵墓，在墓碑上根据阿基米德生前的遗愿，刻上了"圆柱内切球"这一几何图形。</p>
-				<a href="#">返回顶部</a>
+				<a href="#" class="scrollToTop">返回顶部</a>
 			</section>
 		</div>
 		<div class="body_2_right">
 			<nav>
-				<ul class="body_2_right_ul">
+				<ul class="body_2_right_ul sb_menu">
 					<h2>人物生平</h2>
 					<li><a href="#t1">人物出生</a></li>
 					<li><a href="#t2">求学经历</a></li>
@@ -151,5 +152,29 @@
 		<br>
 	</div>
 </footer>
+<!-- InstanceBeginEditable name="JavaScript" -->
+<script> 
+$(document).ready(function(){ 
+// 点击class为scrollToTop的a，则滑动到顶部，时间为500毫秒
+$('a.scrollToTop').click(function(){ 
+$('html, body').animate({scrollTop:'0px'}, 500, 'swing'); 
+return false; 
+}); 
+}) 
+
+$(document).ready(function(){ 
+// 点击class为sb_menu的li的a，则滑动到相应的id位置，时间为800毫秒
+$('.sb_menu li a').click(function(){ 
+var t = jQuery(this), h = t.attr('href'), target;
+	if (h.charAt(0) == '#' && h.length > 1 && (target = jQuery(h)).length > 0){
+		var pos = target.offset().top;
+	}
+
+$('html, body').animate({scrollTop:pos}, 800, 'swing'); 
+return false; 
+}); 
+}) 
+</script>	
+<!-- InstanceEndEditable -->
 </body>
 <!-- InstanceEnd --></html>
