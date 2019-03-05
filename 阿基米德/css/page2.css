@@ -22,6 +22,7 @@
 .body_2_body a{
 	color: #7498E0;
 	line-height: 22px;
+	padding: 5px;
 }
 .body_2_left{
 	width: 799px;
@@ -50,4 +51,15 @@ padding: 10px;
 .body_2_right_ul li{
 	list-style: none;
 	margin-bottom: 5px;
+}
+.affix { 
+	position: fixed; 
+	top: 2px; 
+}
+.sb_menu li.active a {
+    color: #fff;
+	padding: 5px;
+	line-height: 22px;
+	text-decoration: none;
+	background-color: #7498E0;
 }

@@ -7,11 +7,12 @@
 <!-- TemplateEndEditable -->
 <link rel="stylesheet" href="../阿基米德/css/main.css">
 <!-- TemplateBeginEditable name="link连接CSS" -->
-	
+<script src="../阿基米德/js/jquery-3.3.1.min.js"></script>
 <!-- TemplateEndEditable -->
 </head>
-
+<!-- TemplateBeginEditable name="body" -->
 <body>
+<!-- TemplateEndEditable -->
 <header>
 	<div class="header_1">
 		<div class="header_1_left">

@@ -9,10 +9,13 @@
 <!-- InstanceBeginEditable name="link连接CSS" -->
 <link rel="stylesheet" href="../css/page3.css">
 <script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/affix.js"></script>
+<script src="../js/scrollspy.js"></script>
 <!-- InstanceEndEditable -->
 </head>
-
-<body>
+<!-- InstanceBeginEditable name="body" -->
+<body data-spy="scroll" data-target="#sidebarnav" data-offset="20">
+<!-- InstanceEndEditable -->
 <header>
 	<div class="header_1">
 		<div class="header_1_left">
@@ -143,16 +146,18 @@
 			</section>
 		</div>
 		<div class="body_2_right">
-			<nav>
-				<ul class="body_2_right_ul sb_menu">
-					<h2>个人成就</h2>
-					<li><a href="#t1">浮力原理</a></li>
-					<li><a href="#t2">杠杆原理</a></li>
-					<li><a href="#t3">机械应用</a></li>
-					<li><a href="#t4">数学大师</a></li>
-					<li><a href="#t5">天文研究</a></li>
-				</ul>
-			</nav>
+			<div id="sidebarnav" data-spy="affix" data-offset-top="400">
+				<nav>
+					<ul class="body_2_right_ul sb_menu">
+						<h2>个人成就</h2>
+						<li><a href="#t1">浮力原理</a></li>
+						<li><a href="#t2">杠杆原理</a></li>
+						<li><a href="#t3">机械应用</a></li>
+						<li><a href="#t4">数学大师</a></li>
+						<li><a href="#t5">天文研究</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</div>
 	

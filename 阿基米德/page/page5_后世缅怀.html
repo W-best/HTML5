@@ -8,10 +8,13 @@
 <link rel="stylesheet" href="../css/main.css">
 <!-- InstanceBeginEditable name="link连接CSS" -->
 <link rel="stylesheet" href="../css/page5.css">
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/Validform_v5.3.2_min.js"></script>
 <!-- InstanceEndEditable -->
 </head>
-
+<!-- InstanceBeginEditable name="body" -->
 <body>
+<!-- InstanceEndEditable -->
 <header>
 	<div class="header_1">
 		<div class="header_1_left">
@@ -102,13 +105,13 @@
 			<div class="body_2_form">
 				<h2>“给我一个支点，我就能撬起地球”</h2>
 				<br>
-				<form action="">
+				<form class="demoform" action="">
 					<h3>寄语</h3>
-					<input id="id" type="text" placeholder="填写姓名"><label for="id">姓名（*）</label><br>
-					<input id="mail" type="email" placeholder="填写邮箱"><label for="mail">邮箱（*）</label><br>
-					<input id="tel" type="tel" placeholder="填写电话"><label for="tel">电话（*）</label><br>
+					<input id="id" type="text" placeholder="填写姓名" datatype="s1-5" errormsg="昵称最少一个字符，最多五个字符" nullmsg="请填写用户名！" class="gray intxt" tip="填写姓名" altercss="gray"><label for="id">姓名（*）</label><br>
+					<input id="mail" type="email" placeholder="wajas@foxmail.com" datatype="e" errormsg="请输入正确的邮箱格式"  nullmsg="请填写邮箱！" class="gray intxt" tip="wajas@foxmail.com" altercss="gray"><label for="mail">邮箱（*）</label><br>
+					<input id="tel" type="tel" placeholder="填写电话" datatype="m" errormsg="请输入正确的手机号格式"  nullmsg="请填写手机号！" class="gray intxt" tip="填写电话" altercss="gray"><label for="tel">电话（*）</label><br>
 					<input type="radio" name="sex" checked> 男 <input type="radio" name="sex"> 女 性别<br>
-					<input type="number" class="year" value="1998" step="1">年
+					<input type="number" class="year" value="1998" step="1" datatype="n4" errormsg="请输入年份" >年
 						<select name="mouse" id="mouse">
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -150,7 +153,9 @@
 	</div>
 </footer>
 <!-- InstanceBeginEditable name="JavaScript" -->
-	
+<script>
+	$(".demoform").Validform();
+</script>
 <!-- InstanceEndEditable -->
 </body>
 <!-- InstanceEnd --></html>
